@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+.container{
+    background: linear-gradient(139deg,#3e0065,#0075b0);
+    min-height: 100vh;
+    width: 100%;
+    color: #ffff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+.container h1 img{
+    width: 100px;
+    position: relative;
+    left: 10px;
+}
+.container button{
+    width: 155px;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 10px;
+    display: flex;
+    gap: 8px;
+    background: linear-gradient(to bottom,rgb(162, 0, 255),rgb(53, 0, 90));
+    margin-left: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container i{
+    margin-top: 3px;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background-color: #ffff;
+    color: #333;
+    padding: 15px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 33px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.input-box img{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 24px;
+    color: #000000;
+    cursor: pointer;
+}
